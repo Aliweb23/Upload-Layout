@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bild-Upload und Schließen nach 5 Sekunden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bild-Upload</h1>
+        <form onsubmit="handleFileUpload(); return false;">
+            <input type="file" id="fileInput" required>
+            <button type="submit">Hochladen</button>
+        </form>
+    </div>
+    <div id="thankYouMessage" class="thank-you">Danke für deinen Besuch!</div>
+    <script src="script.js"></script>
+</body>
+</html>
